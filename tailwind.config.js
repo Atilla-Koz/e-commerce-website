@@ -1,9 +1,12 @@
-// tailwind.config.js
-
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headerTop: '#252B42',
+        white: '#FFFFFF',
+      },
+    },
   },
   plugins: [],
 };
