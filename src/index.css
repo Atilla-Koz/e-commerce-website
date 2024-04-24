@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-[80px] font-[800];
+  }
+  h2 {
+    @apply text-[40px] font-[700];
+  }
+  h3 {
+    @apply text-[24px] font-[700];
+  }
+  h4 {
+    @apply text-[20px] font-[500];
+  }
+  h5 {
+    @apply text-[16px] font-[700];
+  }
+  h6 {
+    @apply text-[14px] font-[600];
+  }
+  a {
+    @apply text-softText text-[14px] font-[700];
+  }
+}
