@@ -27,8 +27,9 @@ export default function Header() {
           <div>
             <h6>Follow Us and get a chance to win 80% off</h6>
           </div>
-          <div className="flex flex-row gap-2">
-            <h6>Follow Us:</h6>
+          <div className="flex flex-row gap-4">
+            <h6>Follow Us</h6>
+            <h6>:</h6>
             <img src={instagram} alt="Instagram icon" />
             <img src={youtube} alt="Youtube icon" />
             <img src={facebook} alt="Facebook icon" />
