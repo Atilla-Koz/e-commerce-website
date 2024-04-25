@@ -12,4 +12,18 @@ module.exports = {
     },
   },
   plugins: [],
+  css: {
+    swiper: {
+      width: '100%',
+      height: '100%',
+    },
+    'swiper-slide': {
+      textAlign: 'center',
+      fontSize: '18px',
+      background: '#fff',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+  },
 };
