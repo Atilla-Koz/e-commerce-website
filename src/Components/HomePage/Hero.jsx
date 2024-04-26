@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="pt-[1rem]">
       <section className="flex justify-center items-center ">
         <div className="w-11/12 h-[722px] ">
-          <Swiper className="">
+          <Swiper className="w-[100%] h-[100%]">
             <SwiperSlide className="flex lg:flex-row flex-col  lg:items-center rounded-3xl bg-gradient-to-r from-blue-200 to-teal-200 hover:from-teal-200 hover:to-blue-200 transition duration-500 ease-in-out">
               <div className="flex flex-1 flex-col lg:items-start items-center ">
                 <h5 className="text-[#2A7CC7]">SUMMER 2024</h5>
