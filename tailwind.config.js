@@ -8,6 +8,8 @@ module.exports = {
         title: '#252B42',
         softText: '#737373',
         click: '#23A6F0',
+        oldP: '#BDBDBD',
+        newP: '#23856D',
       },
     },
   },
