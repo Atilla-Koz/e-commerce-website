@@ -17,7 +17,7 @@ export default function Services() {
           of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div className="flex flex-row justify-center gap-2  ">
+      <div className="flex flex-row">
         <img src={white} alt="" />
         <img src={orange} alt="" />
       </div>
