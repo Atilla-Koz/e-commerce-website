@@ -13,12 +13,12 @@ export default function HomePage() {
     <div className="home-page">
       <Header />
       <Hero />
-      <NavIcon />
       <Pick />
       <Products />
       <FeaturedProducts />
       <Services />
       <FeaturedPosts />
+      <NavIcon />
       <Footer />
     </div>
   );
