@@ -19,7 +19,7 @@ export default function NavIcon() {
               <h6>NEW</h6>
             </button>
           </div>
-          <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[292px] lg:h-[404px]">
+          <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[270px] lg:h-[404px]">
             <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between lg:h-[404px] ">
               <p className="text-[#8EC2F2]">Google</p>
               <p>Trending</p>
@@ -53,7 +53,7 @@ export default function NavIcon() {
               <h6>NEW</h6>
             </button>
           </div>
-          <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[292px] lg:h-[404px]">
+          <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[270px] lg:h-[404px]">
             <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between lg:h-[404px]">
               <p className="text-[#8EC2F2]">Google</p>
               <p>Trending</p>
