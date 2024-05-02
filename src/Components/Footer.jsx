@@ -13,7 +13,7 @@ export default function Footer() {
           <img src={twitter} />
         </div>
       </section>
-      <section className="flex flex-col gap-6">
+      <section className="flex flex-col gap-6 lg:flex lg:flex-row lg:justify-between lg:w-full lg:pr-[2%] ">
         <div className="flex flex-col gap-2 ml-16">
           <h5>Company Info</h5>
           <p>About Us</p>
@@ -59,12 +59,12 @@ export default function Footer() {
           </form>
           <p>Lore imp sum dolor Amit</p>
         </div>
-        <div className="bg-[#FAFAFA] w-full h-[98px] flex justify-center items-center">
-          <h6 className="text-softText">
-            Made With Love By Finland All Right Reserved{' '}
-          </h6>
-        </div>
       </section>
+      <div className="bg-[#FAFAFA] w-full h-[98px] flex justify-center items-center">
+        <h6 className="text-softText">
+          Made With Love By Finland All Right Reserved{' '}
+        </h6>
+      </div>
     </footer>
   );
 }
