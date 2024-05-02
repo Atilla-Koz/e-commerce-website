@@ -9,7 +9,7 @@ export default function NavIcon() {
         <h6 className="text-click"> Practice Advice</h6>
         <h2 className="text-title">Featured Posts</h2>
       </div>
-      <section className="lg:flex lg:flex-row lg:gap-4">
+      <section className="lg:flex lg:flex-row lg:gap-6">
         <div className="lg:flex lg:flex-row lg:gap-4">
           <div
             className="w-[330px] h-[300px] lg:w-[209px] lg:h-[404px] "
