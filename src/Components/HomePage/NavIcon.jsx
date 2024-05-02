@@ -1,6 +1,8 @@
 import one from '../../assets/NavIcon/1.png';
 import two from '../../assets/NavIcon/2.png';
-
+import w from '../../assets/NavIcon/w.png';
+import ws from '../../assets/NavIcon/ws.svg';
+import t from '../../assets/NavIcon/t.png';
 export default function NavIcon() {
   return (
     <section className="flex flex-col items-center w-[414px] h-[1402px]">
@@ -9,8 +11,72 @@ export default function NavIcon() {
         <h2 className="text-title">Featured Posts</h2>
       </div>
       <div>
-        <div className='w-[330px] h-[300px] bg-[src("../../assets/NavIcon/1.png")]'></div>
-        <div></div>
+        <div
+          className="w-[330px] h-[300px] "
+          style={{ backgroundImage: `url(${one})` }}
+        >
+          <button className="w-[56px] h-[24px] p-[0px 10px 0px 10px] bg-[#E74040] text-white rounded ml-4 mt-4">
+            <h6>NEW</h6>
+          </button>
+        </div>
+        <div className="w-[330px] h-[306px] flex flex-col gap-4">
+          <div className="flex flex-row gap-4 pt-4">
+            <p className="text-[#8EC2F2]">Google</p>
+            <p>Trending</p>
+            <p>New</p>
+          </div>
+          <h4>Loudest à la Madison #1 (L'integral)</h4>
+          <p>
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+          <div className="flex flex-row justify-between">
+            <p className="flex flex-row ">
+              {' '}
+              <img className="h-[16px] pr-1" src={ws} />
+              22 April 2021
+            </p>
+            <p className="flex flex-row">
+              {' '}
+              <img className="h-[16px] pr-1" src={t} />
+              10 comments
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="w-[330px] h-[300px] "
+          style={{ backgroundImage: `url(${two})` }}
+        >
+          <button className="w-[56px] h-[24px] p-[0px 10px 0px 10px] bg-[#E74040] text-white rounded ml-4 mt-4">
+            <h6>NEW</h6>
+          </button>
+        </div>
+        <div className="w-[330px] h-[306px] flex flex-col gap-4">
+          <div className="flex flex-row gap-4 pt-4">
+            <p className="text-[#8EC2F2]">Google</p>
+            <p>Trending</p>
+            <p>New</p>
+          </div>
+          <h4>Loudest à la Madison #1 (L'integral)</h4>
+          <p>
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+          <div className="flex flex-row justify-between">
+            <p className="flex flex-row ">
+              {' '}
+              <img className="h-[16px] pr-1" src={ws} />
+              22 April 2021
+            </p>
+            <p className="flex flex-row">
+              {' '}
+              <img className="h-[16px] pr-1" src={t} />
+              10 comments
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
