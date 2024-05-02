@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="w-11/12 h-[722px] ">
           <Swiper className="w-[100%] h-[100%]">
             <SwiperSlide className="flex lg:flex-row flex-col  lg:items-center rounded-3xl bg-gradient-to-r from-blue-200 to-teal-200 hover:from-teal-200 hover:to-blue-200 transition duration-500 ease-in-out">
-              <div className="flex flex-1 flex-col lg:items-start items-center ">
+              <div className="flex flex-1 flex-col mt-[1rem] lg:items-start items-center lg:mt-0 lg:ml-[5rem]">
                 <h5 className="text-[#2A7CC7]">SUMMER 2024</h5>
                 <h1 className="pb-[1rem]">NEW COLLECTION</h1>
                 <h4>We know how large objects will act, </h4>

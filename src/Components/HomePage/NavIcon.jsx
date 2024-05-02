@@ -20,7 +20,7 @@ export default function NavIcon() {
             </button>
           </div>
           <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[292px] lg:h-[404px]">
-            <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between">
+            <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between lg:h-[404px] ">
               <p className="text-[#8EC2F2]">Google</p>
               <p>Trending</p>
               <p>New</p>
@@ -46,7 +46,7 @@ export default function NavIcon() {
         </div>
         <div className="lg:flex lg:flex-row lg:gap-4">
           <div
-            className="w-[330px] h-[300px] lg:w-[209px] lg:h-[404px] "
+            className="w-[330px] h-[300px] lg:w-[209px] lg:h-[404px]  "
             style={{ backgroundImage: `url(${two})` }}
           >
             <button className="w-[56px] h-[24px] p-[0px 10px 0px 10px] bg-[#E74040] text-white rounded ml-4 mt-4">
@@ -54,7 +54,7 @@ export default function NavIcon() {
             </button>
           </div>
           <div className="w-[330px] h-[306px] flex flex-col gap-4  lg:w-[292px] lg:h-[404px]">
-            <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between">
+            <div className="flex flex-row gap-4 pt-4 lg:flex lg:flex-col lg:content-between lg:h-[404px]">
               <p className="text-[#8EC2F2]">Google</p>
               <p>Trending</p>
               <p>New</p>
