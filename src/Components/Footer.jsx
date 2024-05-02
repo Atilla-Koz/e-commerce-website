@@ -5,7 +5,7 @@ import twitter from '../assets/Footer/twitter.png';
 export default function Footer() {
   return (
     <footer className="flex flex-col">
-      <section className="flex flex-col gap-8 w-full h-[173px] bg-[#FAFAFA] ml-16">
+      <section className="flex flex-col gap-8 w-full h-[173px] bg-[#FAFAFA] pl-16">
         <h3>Bandage</h3>
         <div className="flex flex-row gap-4">
           <img src={face} />
