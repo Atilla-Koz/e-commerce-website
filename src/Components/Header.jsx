@@ -8,6 +8,7 @@ import user from '../assets/Header/user.svg';
 import search from '../assets/Header/search.svg';
 import basket from '../assets/Header/basket.svg';
 import heart from '../assets/Header/Heart.svg';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Header() {
   return (
@@ -40,8 +41,12 @@ export default function Header() {
       <section className="flex lg:flex-row flex-col items-center justify-between w-full h-20 px-6 bg-white gap-4">
         <div className="flex lg:flex-row flex-col items-center gap-4">
           <h3 className="lg:mr-24">Bandage</h3>
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
+          <Link to="/">
+            <a href="#">Home</a>
+          </Link>
+          <Link to="/shop">
+            <a href="#">Shop</a>
+          </Link>
           <a href="#">About</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
