@@ -4,6 +4,7 @@ import ShopNav from './ShopPage/ShopNav';
 import ShopHero from './ShopPage/ShopHero';
 import ShopResults from './ShopPage/ShopResults';
 import ShopProductCards from './ShopPage/ShopProductCards';
+import Pick from './HomePage/Pick';
 export default function ShopPage() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function ShopPage() {
       <ShopHero />
       <ShopResults />
       <ShopProductCards />
+      <Pick />
       <Footer />
     </div>
   );
