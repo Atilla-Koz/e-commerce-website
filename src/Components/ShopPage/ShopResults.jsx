@@ -4,7 +4,7 @@ import two from '../../assets/ShopPage/ShopNav/ShopResults/2.svg';
 
 export default function ShopResults() {
   return (
-    <section className="w-full h-[216px] flex flex-col items-center gap-4">
+    <section className="w-full h-[216px] flex flex-col items-center gap-4 lg:flex-row justify-around lg:h-[98px]">
       <h6 className="text-softText">Showing all 12 results</h6>
       <div className="text-softText flex flex-row justify-center gap-4">
         <h6 className="mt-[10px]">Views:</h6>

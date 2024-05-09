@@ -3,7 +3,7 @@ import ok from '../../assets/ShopPage/ShopNav/ok.svg';
 
 export default function ShopNav() {
   return (
-    <section className="w-full h-[202px] flex flex-col items-center gap-8 pt-16">
+    <section className="w-full h-[202px] flex flex-col items-center gap-8 pt-16 lg:flex-row justify-around lg:h-[92px]]">
       <div>
         <h3>Shop</h3>
       </div>
