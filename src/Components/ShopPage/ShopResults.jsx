@@ -23,7 +23,22 @@ export default function ShopResults() {
           />
         </button>
       </div>
-      <div></div>
+      <div className="flex flex-row gap-4">
+        <select
+          className="w-[141px] h-[50px] border border-softText bg-[#DDDDDD]"
+          name="cars"
+          id="cars"
+        >
+          <option value="Popularity">Popularity</option>
+          <option value="Popularity">Popularity</option>
+          <option value="Popularity">Popularity</option>
+          <option value="Popularity">Popularity</option>
+        </select>
+
+        <button className="w-[94px] h-[50px] border border-softText bg-click text-white">
+          Filter
+        </button>
+      </div>
     </section>
   );
 }
