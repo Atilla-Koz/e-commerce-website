@@ -1,4 +1,3 @@
-import React from 'react';
 import pro from '../../assets/FeaturedProducts/product.png';
 
 const products = [

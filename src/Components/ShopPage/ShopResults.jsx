@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import one from '../../assets/ShopPage/ShopNav/ShopResults/1.svg';
 import two from '../../assets/ShopPage/ShopNav/ShopResults/2.svg';
 
