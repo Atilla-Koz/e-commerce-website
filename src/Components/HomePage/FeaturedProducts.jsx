@@ -93,7 +93,7 @@ export default function FeaturedProducts() {
     <section className="flex flex-col items-center pt-16 gap-16  lg:w-full lg:h-[1241]">
       <h3>BESTSELLER PRODUCTS</h3>
       <p className="">Problems trying to resolve the conflict between </p>
-      <div className="lg:flex lg:flex-row gap-4 flex-wrap">
+      <div className="lg:flex lg:flex-row justify-center gap-4 flex-wrap">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col items-center gap-2">
             <img src={product.imageUrl} alt="product" />{' '}

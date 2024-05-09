@@ -8,10 +8,11 @@ import user from '../assets/Header/user.svg';
 import search from '../assets/Header/search.svg';
 import basket from '../assets/Header/basket.svg';
 import heart from '../assets/Header/Heart.svg';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Header() {
   return (
-    <header className="flex flex-col">
+    <header className="flex flex-col pb-[20rem] lg:pb-0">
       <span className="hidden lg:block">
         <section className="flex flex-row items-center justify-between text-white bg-headerTop w-full h-14 px-6">
           <div className="flex flex-row gap-6">
@@ -37,26 +38,32 @@ export default function Header() {
           </div>
         </section>
       </span>
-      <section className="flex lg:flex-row flex-col items-center justify-between w-full h-20 px-6 bg-white ">
-        <div className="flex lg:flex-row items-center gap-4">
+      <section className="flex lg:flex-row flex-col items-center justify-between w-full h-20 px-6 bg-white gap-4">
+        <div className="flex lg:flex-row flex-col items-center gap-4">
           <h3 className="lg:mr-24">Bandage</h3>
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
+          <Link to="/">
+            <a href="#">Home</a>
+          </Link>
+          <Link to="/shop">
+            <a href="#">Shop</a>
+          </Link>
           <a href="#">About</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
           <a href="#">Pages</a>
         </div>
-        <div className="flex flex-row gap-2">
-          <a className="flex text-click" href="#">
-            <img src={user} />
-            Login
-          </a>
-          <span className="text-[14px] font-[700] text-click">/</span>
-          <a className="text-click" href="#">
-            Register
-          </a>
-          <span className="flex gap-8 ml-4">
+        <div className="flex lg:flex-row flex-col items-center gap-2">
+          <span className="flex flex-row gap-4">
+            <a className="flex text-click" href="#">
+              <img src={user} />
+              Login
+            </a>
+            <span className="text-[14px] font-[700] text-click">/</span>
+            <a className="text-click" href="#">
+              Register
+            </a>
+          </span>
+          <span className="flex lg:flex-row flex-col gap-8 ml-4">
             <a className="text-click" href="#">
               <img src={search} alt="search" />
             </a>
