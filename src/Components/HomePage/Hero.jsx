@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import '../../App.css';
 import gin from '../../assets/Hero/heroimg.svg';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function Hero() {
   return (
@@ -15,9 +16,11 @@ export default function Hero() {
                 <h1 className="pb-[1rem]">NEW COLLECTION</h1>
                 <h4>We know how large objects will act, </h4>
                 <h4 className="pb-6">but things on a small scale.</h4>
-                <button className="p-[15px 40px 15px 40px] bg-[#23A6F0] ]">
-                  <h3 className="text-white">SHOP NOW</h3>
-                </button>
+                <Link to="/shop">
+                  <button className="p-[15px 40px 15px 40px] bg-[#23A6F0] ]">
+                    <h3 className="text-white">SHOP NOW</h3>
+                  </button>
+                </Link>
               </div>
               <div className="flex-1 ">
                 <img
