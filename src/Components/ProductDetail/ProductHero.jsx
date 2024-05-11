@@ -8,7 +8,7 @@ import eye from '../../assets/ProductDetail/eye.svg';
 
 export default function ProductdetailHero() {
   return (
-    <section className="flex flex-col items-center gap-8 w-full h-[991px]">
+    <section className="flex flex-col items-center gap-8 w-full h-[991px] lg:flex-row justify-center lg:h-[598px]">
       <div className="flex flex-col gap-4">
         <img src={yc} />
         <div className="flex flex-row gap-4">
@@ -16,7 +16,7 @@ export default function ProductdetailHero() {
           <img src={lyc} />
         </div>
       </div>
-      <div className="flex flex-col items-start ml-6 mr-6 gap-4">
+      <div className="flex flex-col items-start ml-6 mr-6 gap-4 lg:w-[510px]">
         <h4 className="text-headerTop">Floating Phone</h4>
         <div className="flex flex-row gap-4">
           <img src={star} />
