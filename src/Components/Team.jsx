@@ -23,9 +23,15 @@ export default function Team() {
           <h5>Atilla Köz</h5>
           <p>Software Developer</p>
           <div className="flex flex-row justify-center gap-8">
-            <img src={face} />
-            <img src={insta} />
-            <img src={twit} />
+            <a href="https://www.facebook.com/atilla.koz.7">
+              <img src={face} />
+            </a>
+            <a href="https://www.instagram.com/atillakz/">
+              <img src={insta} />
+            </a>
+            <a href="https://twitter.com/KozAtilla">
+              <img src={twit} />
+            </a>
           </div>
         </div>
         <div className="flex flex-col items-center gap-4">
