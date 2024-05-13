@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import pro from '../../assets/FeaturedProducts/product.png';
 export default function ShopProductCards() {
   const products = [
@@ -91,19 +92,21 @@ export default function ShopProductCards() {
       <div className="lg:flex lg:flex-row justify-center gap-4 flex-wrap">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col items-center gap-2">
-            <img src={product.imageUrl} alt="product" />{' '}
-            <h5>{product.category}</h5>
-            <a>{product.department}</a>
-            <h5 className="text-oldP flex flex-row gap-2">
-              {product.oldPrice}{' '}
-              <h5 className="text-newP">{product.newPrice}</h5>
-            </h5>
-            <section className="flex flex-row gap-2 pb-[2rem]">
-              <div className="w-[16px] h-[16px] bg-click rounded-full"></div>
-              <div className="w-[16px] h-[16px] bg-[#23856D] rounded-full"></div>
-              <div className="w-[16px] h-[16px] bg-[#E77C40] rounded-full"></div>
-              <div className="w-[16px] h-[16px] bg-[#252B42] rounded-full"></div>
-            </section>
+            <Link to="/productdetail">
+              <img src={product.imageUrl} alt="product" />{' '}
+              <h5>{product.category}</h5>
+              <a>{product.department}</a>
+              <h5 className="text-oldP flex flex-row gap-2">
+                {product.oldPrice}{' '}
+                <h5 className="text-newP">{product.newPrice}</h5>
+              </h5>
+              <section className="flex flex-row gap-2 pb-[2rem]">
+                <div className="w-[16px] h-[16px] bg-click rounded-full"></div>
+                <div className="w-[16px] h-[16px] bg-[#23856D] rounded-full"></div>
+                <div className="w-[16px] h-[16px] bg-[#E77C40] rounded-full"></div>
+                <div className="w-[16px] h-[16px] bg-[#252B42] rounded-full"></div>
+              </section>
+            </Link>
           </div>
         ))}
       </div>

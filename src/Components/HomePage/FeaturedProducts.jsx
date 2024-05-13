@@ -1,5 +1,6 @@
 import React from 'react';
 import pro from '../../assets/FeaturedProducts/product.png';
+import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -96,13 +97,15 @@ export default function FeaturedProducts() {
       <div className="lg:flex lg:flex-row justify-center gap-4 flex-wrap">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col items-center gap-2">
-            <img src={product.imageUrl} alt="product" />{' '}
-            <h5>{product.category}</h5>
-            <a>{product.department}</a>
-            <h5 className="text-oldP flex flex-row gap-2">
-              {product.oldPrice}{' '}
-              <h5 className="text-newP">{product.newPrice}</h5>
-            </h5>
+            <Link to="/productdetail">
+              <img src={product.imageUrl} alt="product" />{' '}
+              <h5>{product.category}</h5>
+              <a>{product.department}</a>
+              <h5 className="text-oldP flex flex-row gap-2">
+                {product.oldPrice}{' '}
+                <h5 className="text-newP">{product.newPrice}</h5>
+              </h5>
+            </Link>
           </div>
         ))}
       </div>
