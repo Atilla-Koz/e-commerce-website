@@ -4,11 +4,15 @@ import HomePage from './Components/HomePage/HomePage';
 import ShopPage from './Components/ShopPage';
 import ProductDetails from './Components/ProductDetails';
 import Contact from './Components/Contact';
+import Team from './Components/Team';
 
 function App() {
   return (
     <>
       <Switch>
+        <Route path="/team">
+          <Team />
+        </Route>
         <Route path="/contact">
           <Contact />
         </Route>

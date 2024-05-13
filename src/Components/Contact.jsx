@@ -8,7 +8,7 @@ export default function Contact() {
         Problems trying to resolve the conflict between the two major realms of
         Classical physics:
       </p>
-      <Link>
+      <Link to="/team">
         <h6 className="text-click">CONTACT US</h6>
       </Link>
     </section>
