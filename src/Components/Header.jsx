@@ -49,7 +49,9 @@ export default function Header() {
           </Link>
           <a href="#">About</a>
           <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <Link to="/contact">
+            <a href="#">Contact</a>
+          </Link>
           <a href="#">Pages</a>
         </div>
         <div className="flex lg:flex-row flex-col items-center gap-2">
