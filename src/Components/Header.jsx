@@ -41,43 +41,33 @@ export default function Header() {
       <section className="flex lg:flex-row flex-col items-center justify-between w-full h-20 px-6 bg-white gap-4">
         <div className="flex lg:flex-row flex-col items-center gap-4">
           <h3 className="lg:mr-24">Bandage</h3>
-          <Link to="/">
-            <a href="#">Home</a>
-          </Link>
-          <Link to="/shop">
-            <a href="#">Shop</a>
-          </Link>
-          <Link to="/about">
-            <a href="#">About</a>
-          </Link>
-          <a href="#">Blog</a>
-          <Link to="/contact">
-            <a href="#">Contact</a>
-          </Link>
-          <a href="#">Pages</a>
+          <Link to="/">Home</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/about">About</Link>
+          <Link> Blog</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="">Pages</Link>
         </div>
         <div className="flex lg:flex-row flex-col items-center gap-2">
           <span className="flex flex-row gap-4">
-            <a className="flex text-click" href="#">
+            <Link className="flex text-click">
               <img src={user} />
               Login
-            </a>
+            </Link>
             <span className="text-[14px] font-[700] text-click">/</span>
-            <a className="text-click" href="#">
-              Register
-            </a>
+            <Link className="text-click">Register</Link>
           </span>
           <span className="flex lg:flex-row flex-col gap-8 ml-4">
-            <a className="text-click" href="#">
+            <Link className="text-click">
               <img src={search} alt="search" />
-            </a>
-            <a className="text-click" href="#">
+            </Link>
+            <Link className="text-click">
               <img src={basket} alt="basket" />
-            </a>
-            <a className="text-click flex flex-row" href="#">
+            </Link>
+            <Link className="text-click flex flex-row">
               <img src={heart} alt="likes" />
               {'1'}
-            </a>
+            </Link>
           </span>
         </div>
       </section>
