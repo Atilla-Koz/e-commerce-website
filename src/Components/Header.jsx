@@ -47,7 +47,9 @@ export default function Header() {
           <Link to="/shop">
             <a href="#">Shop</a>
           </Link>
-          <a href="#">About</a>
+          <Link to="/about">
+            <a href="#">About</a>
+          </Link>
           <a href="#">Blog</a>
           <Link to="/contact">
             <a href="#">Contact</a>
