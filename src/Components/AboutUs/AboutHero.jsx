@@ -9,11 +9,11 @@ import sE from '../../assets/AboutUS/sE.png';
 
 export default function AboutHero() {
   return (
-    <section className="pt-[10rem] flex flex-col items-center  h-[950px]">
-      <div className="w-11/12 h-[722px] ">
+    <section className="pt-[10rem] flex flex-col items-center h-[950px]">
+      <div className="w-11/12 h-[722px]">
         <Swiper className="w-[100%] h-[100%]">
-          <SwiperSlide className="flex flex-col items-center gap-16 ">
-            <div className="flex flex-col items-center gap-8">
+          <SwiperSlide className="flex flex-col items-center gap-16 lg:flex-row lg:justify-center lg:gap-24">
+            <div className="flex flex-col items-center gap-8 ">
               <h6 className="text-title font-[700] text-[40px]">ABOUT US</h6>
               <p className="text-softText text-[20px] w-[271px] h-[120px]">
                 We know how large objects will act, but things on a small scale
