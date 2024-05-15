@@ -9,7 +9,7 @@ import sE from '../../assets/AboutUS/sE.png';
 
 export default function AboutHero() {
   return (
-    <section className="pt-[10rem] flex flex-col items-center  h-[1616px]">
+    <section className="pt-[10rem] flex flex-col items-center  h-[950px]">
       <div className="w-11/12 h-[722px] ">
         <Swiper className="w-[100%] h-[100%]">
           <SwiperSlide className="flex flex-col items-center gap-16 ">
