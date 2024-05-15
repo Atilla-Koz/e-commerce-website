@@ -1,6 +1,6 @@
 export default function NumbersAbout() {
   return (
-    <section className="flex flex-col items-center gap-24 h-[800px]">
+    <section className="flex flex-col items-center gap-24 h-[800px] lg:flex-row justify-around lg:gap-0">
       <div className="flex flex-col items-center">
         <h1>15K</h1>
         <h5 className="text-softText">Happy Customers</h5>
