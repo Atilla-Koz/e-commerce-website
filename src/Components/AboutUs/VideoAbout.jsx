@@ -19,7 +19,7 @@ export default function VideoAbout() {
     <section className="flex justify-center w-full pb-16 relative">
       <video
         id="norwayVideo"
-        className="w-[306px] h-[316px] rounded-lg object-cover"
+        className="w-[306px] h-[316px] rounded-lg object-cover lg:w-[1440px] lg:h-[764px] lg:rounded-[50px] "
         src={nor}
         autoPlay
         loop

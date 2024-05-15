@@ -9,7 +9,7 @@ export default function Team() {
         <h2 className="flex flex-row justify-center w-[302px] h-[100px] lg:w-[607px] lg:h-[50px]">
           Meet Our Team
         </h2>
-        <p className="flex flex-row justify-center w-[302px] h-[100px] lg:w-[607px] lg:h-[40px]">
+        <p className="flex flex-row justify-center w-[302px] h-[100px] lg:w-[607px] lg:h-[40px] text-center">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics{' '}
         </p>
