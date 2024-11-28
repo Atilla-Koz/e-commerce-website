@@ -6,11 +6,15 @@ import ProductDetails from './Components/ProductDetails';
 import Contact from './Components/Contact';
 import Team from './Components/Team';
 import AboutUs from './Components/AboutUs';
+import SignUp from './Components/SingUp';
 
 function App() {
   return (
     <>
       <Switch>
+        <Route path="/signup">
+          <SignUp />
+        </Route>
         <Route path="/about">
           <AboutUs />
         </Route>
